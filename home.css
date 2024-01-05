@@ -7,6 +7,7 @@
 
 
 
+
 .header-container {
   box-sizing: border-box;
   display: flex;
@@ -238,7 +239,7 @@
 
 .border-brown {
     width: 580px;
-    height: 331px;
+    height: 350px;
     flex-shrink: 0;
 
     background-color: rgba(195, 152, 130, 0.10);
@@ -276,7 +277,7 @@
 
 .border-brown-light {
     width: 580px;
-    height: 147px;
+    height: 155px;
     flex-shrink: 0;
 
     border-radius: 16px;
@@ -364,6 +365,122 @@
   border-radius: 4px;
 }
 
-#myBtn:hover {
-    border: 1px solid black;
+
+@font-face {
+    font-family: 'Raleway';
+    src: url("Raleway-VariableFont_wght.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+/* Add the following media query for smaller screens */
+
+
+@media (max-width: 768px) {
+
+    .introduction-section {
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+
+    #first-section {
+        margin-top: 100px;
+    }
+
+    .rectangle {
+        width: 100%;
+    }
+
+
+    .maria {
+        width: 100%;
+        text-align: center;
+    }
+
+    .circle {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .photo-ai, .photo {
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    .cv-text {
+        font-size: 14px;
+    }
+
+    #second-section {
+        margin-top: 50px;
+    }
+
+    .experience {
+        font-size: 32px;
+    }
+
+    #third-section, #fourth-section, #fifth-section, #sixth-section, #seventh-section {
+        margin-top: 50px;
+    }
+
+    .border-brown, .border-brown-light {
+        width: 100%;
+    }
+
+    .bold-text, .brown-text, .brown-text-second {
+        text-align: center;
+    }
+
+    #eighth-section {
+        margin-top: 50px;
+    }
+
+}
+
+
+/* Add the following media query for even smaller screens */
+@media (max-width: 576px) {
+    .navbar-collapse {
+        background-color: #fff;
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+        top: 64px;
+        left: 0;
+        display: none;
+    }
+
+    .navbar-toggler {
+        display: block;
+    }
+
+    .navbar-toggler:focus,
+    .navbar-toggler:active,
+    .navbar-toggler-icon:focus,
+    .navbar-toggler-icon:active {
+        outline: none;
+        box-shadow: none;
+    }
+
+    .navbar-collapse.collapsing {
+        display: block;
+        flex: 1;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-item {
+        width: 100%;
+        text-align: center;
+    }
+
+    .rectangle {
+        width: 100%;
+    }
 }
