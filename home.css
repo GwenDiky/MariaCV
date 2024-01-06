@@ -230,6 +230,8 @@
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+
+    margin-top: 30px;
 }
 
 #fourth-section{
@@ -320,15 +322,6 @@
 }
 .email {
     color: #A37A2A;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-
-    color: #A37A2A;
-    text-align: center;
     font-family: Raleway;
     font-size: 20px;
     font-style: normal;
@@ -569,7 +562,7 @@
     }
 
     #third-section, #fourth-section, #fifth-section, #sixth-section, #seventh-section {
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     .border-brown, .border-brown-light {
@@ -582,5 +575,13 @@
 
     #eighth-section {
         margin-top: 50px;
+    }
+
+    .telegram {
+        margin-bottom: 30px;
+    }
+
+    .email {
+        margin-top: 20px;
     }
 }
